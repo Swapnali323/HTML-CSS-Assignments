@@ -1,0 +1,29 @@
+body{
+    height: 100%;
+  }
+  
+  .parallax {
+    
+    background-image: url('meditation1.jpg');
+    height: 50%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  .okayparallax{
+    height:200px;
+    background-color:white;
+    background-image: url('meditation.jpg');
+    height: 50%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    
+  }
+  h1{
+      text-align: center;
+      color: darkred;
+      font-size: xx-large;
+  }

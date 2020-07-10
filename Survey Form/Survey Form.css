@@ -1,0 +1,66 @@
+a.topic{
+    font-size:large;
+    font-weight: bold;
+}
+h1{
+    color: blue;
+    font-family: cursive;
+    text-align: center;
+}
+
+
+.point{
+    font-size: medium;
+    font-weight: bold;
+}
+body{
+    background-color: lightblue;
+}
+form{
+    margin: auto;
+    width: 70%;
+}
+input[type=text],select{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: inherit;
+    color: white;
+  }
+button {
+    margin: .5em;
+    font-size: 1em;
+    text-transform: capitalize;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    
+  }
+  textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+    padding: 100px 100px;
+  }
+  input[type=reset] {
+    background-color: red;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: inherit;
+    color: white;
+  }
+  

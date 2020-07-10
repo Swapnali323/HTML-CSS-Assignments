@@ -1,0 +1,59 @@
+<html>
+    <link href="Survey Form.css" rel="stylesheet">
+    <head>
+        <h1>Survey Form</h1>
+    </head>
+    <body>
+        
+        <form>
+        <a class="topic">
+            Personal Information:
+        </a><br><br>
+        <div class="point">
+        <label for="address">Name:</label>
+        <input type="text" required id="name" name="name" placeholder="Enter name here" size="30">  </div>
+          <div class="point">
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="Address" placeholder="Enter address here" size="30">   </div>
+          <div class="point">
+            <label id="email" for="Email">Email:</label>
+            <input type="text" required id="email" name="email" placeholder="Enter email here" size="30">   </div>
+          <div class="point">
+            <label id="number" for="phone">Phone Number:</label>
+            <input type="text" id="number" name="number" placeholder="Enter 10 digit number" min="1" max="9" size="30">  </div>
+       
+<br>
+            <a class="topic"> Select the training programs attended :
+            </a> 
+         <br>
+<input type="checkbox" name="Oracle"> Oracle <br><br>
+<input type="checkbox" name=".net" checked> .net<br><br>
+<input type="checkbox" name="Java"> Java <br> <br>
+<input type="checkbox" name="HTML"> HTML <br> <br>
+
+<a class="topic"> Which training program would you like to attend ? 
+</a>
+
+<select name="pref">
+<option value="HTML">HTML </option>
+<option value="Oracle">Oracle </option>
+<option value="Java">Java </option>
+<option value="JavaScript">JavaScript </option>
+</select><br>
+
+<a class="topic">
+<label for="msg">Write your feedback :</label><br><br>
+</a>   
+<textarea id="msg" name="user_message" rows="4" cols="50" placeholder="Enter Text Here"></textarea> 
+<a class="topic">
+<p>Upload Your Course Certifiates here:
+    <button>Attach Files</button></p>
+</a>
+  <input type="submit" value="submit">
+  <input type="reset" Value="Reset"> 
+    </form>
+    </body>
+</html> 
+    
+    
+    

@@ -1,0 +1,41 @@
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+h1{
+    color: blue;
+    font-family: cursive;
+    text-align: center;
+}
+body{
+    background-color: aquamarine;
+}
+h2{
+    text-align: center;
+    font-family: fantasy;
+    color: maroon;
+}
+a.topic{
+    font-family: system-ui;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: underline;
+    color: brown;
+}
+
+p{
+    text-indent: 50px;
+}
+h3{
+    text-align: center;
+    color: darkslateblue;
+}
+.quote{
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
