@@ -35,16 +35,18 @@ nav ul li a{
     color: #505050;
     font-size: 15px;
     font-weight: 700;
+    padding: 7px 13px;
 }
 .logo{
     font-family: 'Courier New', Courier, monospace;
     color: #000000;
     font-size: 22px;
 }
-.active{
-    font-weight: bold;
-    color: #2d2d2a;
-}
+a.active,a:hover{
+    background: #d3d3d3;
+    transition: .5s;
+  }
+
 .container div{
     position: relative;
     width: 100%;
@@ -131,14 +133,16 @@ button:active{
     font-weight: bold;
     font-family: monospace;
     line-height: 5px;
+    margin: 30px;
 }
 .about-text p:nth-child(2),
 .about-text p:nth-child(3){
     color: 3e3d3d;
     font-size: 16px;
     font-weight: bold;
-    /* font-family: calibri; */
+    font-family: calibri;
     line-height: 20px;
+    margin: 30px;
 }
 .about button{
     width: 120px;
@@ -146,6 +150,7 @@ button:active{
     background-color: 262525;
     color: #ffffff;
     font-family: calibri;
+    margin: 30px;
 }
 
 .contact-me{
@@ -192,13 +197,14 @@ footer p:nth-child(1){
     font-size: 40px;
     font-weight: bold;
     color: #191919;
- 
+    
 }
 footer p:nth-child(2){
     font-size: 16px;
     color: #7e7d7d;
     width: 600px;
     text-align: center;
+    margin-top: 1px;
 }
 .social-icons a{
     width: 40px;
@@ -220,7 +226,7 @@ footer p:nth-child(2){
     position: absolute;
     left: 50%;
     bottom: 10px;
-    transform: translate(-50%);
+    /* transform: translate(-50%); */
 }
 .social-icons i{
     color: #000000;
@@ -228,11 +234,11 @@ font-size: 24px;
 
 }
 .social-icons a:hover{
-    background-color: #000000;
+    /* background-color: #000000; */
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     transition:  all ease 0.5s;
 }
 .social-icons a:hover i{
-    color: #ffffff;
+    /* color: #ffffff; */
     transition:  all ease 0.5s;
 }
