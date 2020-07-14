@@ -37,6 +37,8 @@ nav{
     border-radius: 3px;
     /* text-transform: uppercase; */
     font-family: monospace;
+    margin-left: 50px;
+    background-color: none;
   }
   a.active,a:hover{
     background: black;
@@ -101,7 +103,7 @@ input[type=text]{
   box-sizing: border-box;
  
 }
-input[type=submit] {
+a {
     background-color: #4CAF50;
     padding: 12px 20px;
     border: none;
@@ -109,9 +111,9 @@ input[type=submit] {
     cursor: pointer;
     float: inherit;
     color: white;
-    margin-left: 50;
+    margin-left: 100px;
   }
-  a.topic{
+  .topic{
     font-size:large;
     font-weight: bold;
     margin-left: 5px;

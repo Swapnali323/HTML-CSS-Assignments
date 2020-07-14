@@ -205,6 +205,16 @@ margin: 20px;
     font-weight: bold;
     margin-top: 2em;
 }
+.contact-me button a{
+  color: black;
+
+
+}
+.contact-me button a:hover{
+  background: none;
+
+
+}
 footer{
     height: 300px;
     display: flex;
@@ -294,7 +304,7 @@ margin:2px;
  margin-top: 1.5em;
  text-transform: capitalize;
 }
-input[type=submit] {
+/* input[type=submit] {
   background-color: black;
   padding: 12px 20px;
   border: none;
@@ -303,4 +313,18 @@ input[type=submit] {
   float: inherit;
   color: white;
   margin: 20px 45%;
+} */
+.submit a {
+  background-color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: inherit;
+  color: white;
+  margin: 30px 45%;
+  
+}
+.submit{
+  margin: 30px 25%;
 }

@@ -43,7 +43,7 @@ nav ul li a{
     font-size: 22px;
 }
 a.active,a:hover{
-    background: #d3d3d3;
+    background: none;
     transition: .5s;
   }
 
@@ -92,10 +92,22 @@ a.active,a:hover{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0px 10px;
 }
+.container button a{
+    color: black;
+    font-family: calibri;
+    margin: 30px;
+    /* background-color: black; */
+}
+.container button a:hover{
+    background: none;
+}
 
-.Download-CV{
-    background-color: 0b0b0b;
-    color: #ffffff;
+.a{
+    background-color: black;
+    color:#ffffff;
+}
+.about button a:hover{
+    background: none;
 }
 button:active{
     transform:scale(1.1)
@@ -145,12 +157,18 @@ button:active{
     margin: 30px;
 }
 .about button{
-    width: 120px;
+    width: 140px;
     height: 40px;
     background-color: 262525;
     color: #ffffff;
     font-family: calibri;
     margin: 30px;
+}
+.about button a{
+    color: #ffffff;
+    font-family: calibri;
+    margin: 30px;
+
 }
 
 .contact-me{
@@ -179,6 +197,11 @@ button:active{
     background-color: #ffffff;
     font-size: 14px;
     font-weight: bold;
+}
+.contact-me button a{
+    color: black;
+
+
 }
 footer{
     height: 300px;

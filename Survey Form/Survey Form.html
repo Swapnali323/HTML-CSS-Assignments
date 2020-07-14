@@ -6,11 +6,11 @@
     <body>
         
         <form>
-        <a class="topic">
+        <div class="topic">
             Personal Information:
-        </a><br><br>
+        </div><br><br>
         <div class="point">
-        <label for="address">Name:</label>
+        <label for="name">Name:</label>
         <input type="text" required id="name" name="name" placeholder="Enter name here" size="30">  </div>
           <div class="point">
             <label for="address">Address:</label>
@@ -23,16 +23,16 @@
             <input type="text" id="number" name="number" placeholder="Enter 10 digit number" min="1" max="9" size="30">  </div>
        
 <br>
-            <a class="topic"> Select the training programs attended :
-            </a> 
+            <div class="topic"> Select the training programs attended :
+            </div> 
          <br>
 <input type="checkbox" name="Oracle"> Oracle <br><br>
 <input type="checkbox" name=".net" checked> .net<br><br>
 <input type="checkbox" name="Java"> Java <br> <br>
 <input type="checkbox" name="HTML"> HTML <br> <br>
 
-<a class="topic"> Which training program would you like to attend ? 
-</a>
+<div class="topic"> Which training program would you like to attend ? 
+</div>
 
 <select name="pref">
 <option value="HTML">HTML </option>
@@ -41,15 +41,16 @@
 <option value="JavaScript">JavaScript </option>
 </select><br>
 
-<a class="topic">
+<div class="topic">
 <label for="msg">Write your feedback :</label><br><br>
-</a>   
+</div>   
 <textarea id="msg" name="user_message" rows="4" cols="50" placeholder="Enter Text Here"></textarea> 
-<a class="topic">
+<div class="topic">
 <p>Upload Your Course Certifiates here:
     <button>Attach Files</button></p>
-</a>
-  <input type="submit" value="submit">
+</div>
+  <a href="submit.html" type="submit" value="submit" >Submit</a>
+
   <input type="reset" Value="Reset"> 
     </form>
     </body>
